@@ -1,0 +1,22 @@
+/*
+
+Template: Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE:  This file includes all plugins. If you don't want to use any plugins from below. You can simply remove that line from this file.
+
+*/
+ 
+/*plugins*/
+@import url("/static/css/plugins/bootstrap.min.css");
+@import url("/static/css/plugins/mega_menu.css");
+@import url("/static/css/plugins/animate.css");
+@import url("/static/css/plugins/font-awesome.min.css");
+@import url("/static/css/plugins/bootstrap-datetimepicker.min.css");
+@import url("/static/css/plugins/dataTables.bootstrap4.min.css");
+@import url("/static/css/plugins/magnific-popup.css");
+@import url("/static/css/plugins/mediaelementplayer.css");
+@import url("/static/css/plugins/owl.carousel.min.css");
+@import url("/static/css/plugins/slick-theme.css");
+@import url("/static/css/plugins/themify-icons.css");

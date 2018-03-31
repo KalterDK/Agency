@@ -1,0 +1,6 @@
+*.pyc
+.DS_Store
+webmaerd/DS_Store
+.idea/*
+__pycache__
+webmaerd/__pycache__

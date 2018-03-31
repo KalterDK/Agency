@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "base/head.html" %}
+<body>
+<div class="wrapper">
+     <div id="pre-loader">
+        <img src="/static/images/pre-loader/loader-01.svg" alt="">
+    </div>
+    {% include "base/header.html" %}
+    {% block content %}
+    {% endblock %}
+    {% include "base/footer.html" %}
+</div>
+    <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+    {% include "base/js.html" %}
+</body>
+</html>
