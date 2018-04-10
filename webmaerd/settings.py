@@ -15,7 +15,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'webmaerd.com'
+    'webmaerd.com',
+    'www.webmaerd.com'
 ]
 
 
