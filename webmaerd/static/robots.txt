@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-sitemap: http://wallmar.eu/static/sitemap.txt
+sitemap: http://webmaerd.com/static/sitemap.txt
