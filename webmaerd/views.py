@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse
-from .forms import *
+from forms import *
+from models import *
 
 
 def render_tamplate(tpl, dt, request):
@@ -15,6 +16,18 @@ def render_tamplate(tpl, dt, request):
     dct = {}
     dct.update(dt)
     return render(request, tpl, dct)
+
+
+def home(request):
+    projects = Project.objects.all()
+
+    return render_tamplate('index.html', {'projects': projects}, request)
+
+
+def portfolio(request):
+    projects = Project.objects.all()
+
+    return render_tamplate('portfolio.html', {'projects': projects}, request)
 
 
 def contact(request):

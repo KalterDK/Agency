@@ -160,77 +160,18 @@ custom-content -->
             </div>
             <div class="col-lg-8">
                 <div class="isotope popup-gallery columns-3 no-padding">
+                    {% for i in projects %}
                     <div class="grid-item">
                         <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/01.jpg" alt="">
+                            <img src="{{ i.image.url }}" alt="{{ i.title }}">
                             <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html">Post item image</a></h4>
-                                <span class="text-white"> <a href="#"> Photography  </a>| <a
-                                        href="#">Ecommerce </a> </span>
+                                <h4 class="text-white"><a href="{{ i.url }}"> {{ i.title }} </a></h4>
+                                <span class="text-white"> {{ i.text }} </span>
                             </div>
-                            <a class="popup portfolio-img" href="images/portfolio/small/01.jpg"><i
-                                    class="fa fa-arrows-alt"></i></a>
+                            <a class="popup portfolio-img" href="{{ i.image.url }}"><i class="fa fa-arrows-alt"></i></a>
                         </div>
                     </div>
-                    <div class="grid-item">
-                        <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/02.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html"> Post item image</a></h4>
-                                <span class="text-white"> <a href="#"> Creative  </a>| <a
-                                        href="#">Graphics </a> </span>
-                            </div>
-                            <a class="popup portfolio-img" href="images/portfolio/small/02.jpg"><i
-                                    class="fa fa-arrows-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/03.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html"> Post item image</a></h4>
-                                <span class="text-white"> <a href="#"> Design  </a>| <a
-                                        href="#">Illustration </a> </span>
-                            </div>
-                            <a class="popup portfolio-img" href="images/portfolio/small/03.jpg"><i
-                                    class="fa fa-arrows-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/04.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html"> Post GIF image</a></h4>
-                                <span class="text-white"> <a href="#"> Animation </a>| <a href="#">GIF </a> </span>
-                            </div>
-                            <a class="popup portfolio-img" href="images/portfolio/small/04.jpg"><i
-                                    class="fa fa-arrows-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/05.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html"> Post item Youtube</a>
-                                </h4>
-                                <span class="text-white"> <a href="#"> Video  </a>| <a href="#">Youtube </a> </span>
-                            </div>
-                            <a class="popup popup-youtube" href="https://www.youtube.com/watch?v=LgvseYYhqU0"><i
-                                    class="fa fa-play"></i></a>
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="portfolio-item">
-                            <img src="/static/images/portfolio/small/06.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="portfolio-single-01.html"> Post item image </a></h4>
-                                <span class="text-white"> <a href="#"> Photography  </a>| <a
-                                        href="#">Illustration </a> </span>
-                            </div>
-                            <a class="popup portfolio-img" href="images/portfolio/small/06.jpg"><i
-                                    class="fa fa-arrows-alt"></i></a>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
