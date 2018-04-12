@@ -9,3 +9,12 @@ class Project(models.Model):
 
     def __unicode__(self):
         return self.title
+
+
+class Question(models.Model):
+    title_short = models.CharField(max_length=200)
+    title_long = models.CharField(max_length=200)
+    text = models.TextField(max_length=1000)
+
+    def __unicode__(self):
+        return self.title_short

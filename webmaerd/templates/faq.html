@@ -42,57 +42,22 @@ page-title -->
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="accordion shadow">
-                    <div class="acd-group acd-active">
-                        <a href="#" class="acd-heading">01. What is the cost of the services?</a>
+                    {% for i in questions %}
+                    <div class="acd-group {% if i == questions|first %}acd-active{% endif %}">
+                        <a href="#" class="acd-heading">{{ i.title_short }}</a>
                         <div class="acd-des">
-                            <h5>What is the cost of the services? How much does it cost to create a website?</h5>
-                            <p>The price depends on many factors, so the cost of services is assessed individually for
-                                each project. For example the cost of the project is calculated from its:
-                            </p>
-                            <ul class="list list-unstyled list-mark">
-                                <li> Complexity</li>
-                                <li> Functionality</li>
-                                <li> Lead time</li>
-                                <li> additional customer requests</li>
-                            </ul>
-                            <p>
-                            For example, the cost of sites in our portfolio starts from $ 500
-                            </p>
+                            <h5>{{ i.title_long }}</h5>
+                            {{ i.text|safe }}
                         </div>
                     </div>
-                    <div class="acd-group">
-                        <a href="#" class="acd-heading">02. How to estimate the approximate cost of an order?</a>
-                        <div class="acd-des"><h5>How to estimate the approximate cost of an order?</h5>
-                            <p>In the near future we will create a questionnaire filling out which you will be able to
-                                estimate the approximate cost of your project.</p>
-                        </div>
-                    </div>
-                    <div class="acd-group">
-                        <a href="#" class="acd-heading">03. How long does it take to create a website?</a>
-                        <div class="acd-des"><h5>How long will it take for you to complete the order for the creation of
-                            the site?</h5>
-                            <p>The lead time depends on the complexity of the project. A simple site-visit, we do about
-                                one week. The implementation of sites of medium complexity - one or two weeks.
-                                Implementation of complex projects can take up to one to two months.</p>
-                        </div>
-                    </div>
-                    <div class="acd-group">
-                        <a href="#" class="acd-heading">04. How is the service paid?</a>
-                        <div class="acd-des"><h5>Amet of lorem ipsum dolor sit lorem ipsum?</h5>
-                            <p>First, we negotiate your project with you, agree on the price. Further we conclude with
-                                you the contract on rendering of services. You make a prepayment of 10% of the order
-                                value. We make a website. When the site is made and you approve it you pay us the
-                                remaining amount, and we give you access to the site, and also send the code and files
-                                of the site.</p>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 text-center mt-40">
                 <h6> If you do not find the answer to your question listed within our FAQ's, you can always contact us
-                    directly at <a class="theme-color" href="#"> contact@webmaerd.com</a></h6>
+                    directly at <a class="theme-color" href="mailto:contact@webmaerd.com"> contact@webmaerd.com</a></h6>
             </div>
         </div>
     </div>

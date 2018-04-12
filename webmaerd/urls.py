@@ -10,7 +10,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name="Home page"),
     url(r'^portfolio/$', views.portfolio, name="Portfolio"),
-    url(r'^faq/$', TemplateView.as_view(template_name="faq.html"), name="FAQ"),
+    url(r'^faq/$', views.faq, name="FAQ"),
     url(r'^contact/$', views.contact, name="contact"),
     url(r'^success_page/$', TemplateView.as_view(template_name="success_page.html"), name="Success page"),
 ]

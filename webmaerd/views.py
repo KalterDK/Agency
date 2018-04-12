@@ -30,6 +30,12 @@ def portfolio(request):
     return render_tamplate('portfolio.html', {'projects': projects}, request)
 
 
+def faq(request):
+    questions = Question.objects.all()
+
+    return render_tamplate('faq.html', {'questions': questions}, request)
+
+
 def contact(request):
     if request.method == 'POST':
         cform = ContactForm(request.POST)
