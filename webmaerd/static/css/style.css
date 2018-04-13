@@ -1245,11 +1245,11 @@ border-color: #f6f7f8 transparent transparent transparent; }
 /*************************************
 	    	 error 404
 **************************************/ 
-.error-block { position: relative; z-index: 9; padding: 20px 0  130px 0px; }
+.error-block { position: relative; z-index: 9; padding: 20px 0  20px 0px; }
 .error-block .error-text { position: absolute; text-align: center; left: 0; right: 0; z-index: -1; }
 .error-block .error-text h2 {   font-size: 420px; line-height: 300px; color: rgba(0, 0, 0, 0.1); position: absolute; left: 0; top: 0;  }
 .error-block .error-text  span { display: inline-block; position: absolute; right: -86px; top: 109px; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); font-size: 124px; line-height: 90px; color: rgba(0, 0, 0, 0.1); font-weight: bold; }
-.error-block h1 { font-size: 87px; padding-top: 110px; }
+.error-block h1 { font-size: 87px;}
 .error-block p { font-size: 33px; }
 
 .error-text-02 { position: relative; text-align: center;  }
