@@ -74,45 +74,20 @@ custom-content -->
             </div>
         </div>
         <div class="row">
+            {% for i in services %}
             <div class="col-md-4 xs-mb-40">
                 <div class="feature-box h-100">
                     <div class="feature-box-content">
-                        <i class="fa fa-desktop"></i>
-                        <h4>Web Development</h4>
-                        <p>We are engaged in Web Design and Web Development. Creation of sites in accordance with the
-                            wishes of customers.</p>
+                        <i class="{{ i.icon }}"></i>
+                        <h4>{{ i.title }}</h4>
+                        <p>{{ i.text }}</p>
                     </div>
                     <a href="/portfolio">Portfolio</a>
-                    <div class="feature-box-img" style="background-image: url('/static/images/about/01.jpg');"></div>
+                    <div class="feature-box-img" style="background-image: url('{{ i.image.url }}');"></div>
                     <span class="feature-border"></span>
                 </div>
             </div>
-            <div class="col-md-4 xs-mb-40">
-                <div class="feature-box h-100">
-                    <div class="feature-box-content">
-                        <i class="fa fa-gears"></i>
-                        <h4>Hosting & Domains</h4>
-                        <p>We help in placing the site on hosting and its configuration. We also help in buying a domain
-                            and binding it to hosting.</p>
-                    </div>
-                    <a href="/portfolio">Portfolio</a>
-                    <div class="feature-box-img" style="background-image: url('/static/images/about/01.jpg');"></div>
-                    <span class="feature-border"></span>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-box h-100">
-                    <div class="feature-box-content">
-                        <i class="fa fa-envelope-o"></i>
-                        <h4>Setting up an email</h4>
-                        <p>Creating and configuring e-mail accounts for the domain of your site. Setting up e-mail
-                            clients.</p>
-                    </div>
-                    <a href="/portfolio">Portfolio</a>
-                    <div class="feature-box-img" style="background-image: url('/static/images/about/01.jpg');"></div>
-                    <span class="feature-border"></span>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -233,7 +208,6 @@ action box- -->
 </section>
 <!--=================================
 action box- -->
-
 
 {% endblock %}
 

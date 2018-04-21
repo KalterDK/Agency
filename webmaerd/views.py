@@ -19,9 +19,10 @@ def render_tamplate(tpl, dt, request):
 
 
 def home(request):
+    services = Service.objects.all()
     projects = Project.objects.all()
 
-    return render_tamplate('index.html', {'projects': projects}, request)
+    return render_tamplate('index.html', {'services': services, 'projects': projects}, request)
 
 
 def portfolio(request):
