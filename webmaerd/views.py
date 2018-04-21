@@ -48,7 +48,7 @@ def contact(request):
             phone = cform.cleaned_data['phone']
             subject = cform.cleaned_data['subject']
             message = cform.cleaned_data['message']
-            recipients = ['info@webmaerd.com']
+            recipients = ['contact@webmaerd.com']
 
             try:
                 send_mail("[WEBMAERD] Contact From Message",

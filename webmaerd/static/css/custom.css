@@ -1,3 +1,9 @@
 .subject-area {
     width: 100%;
 }
+
+#language-switcher {
+    margin: 4px;
+    top: auto;
+    max-width: 110px;
+}
