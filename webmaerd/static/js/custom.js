@@ -672,7 +672,7 @@ POTENZA.wowanimation = function () {
 *************************/
 POTENZA.googlemaps = function () {
   if ($('.g-map').exists()) {
-    loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyDfHfEurgj3epj0uPevQ-djOoIsLSc7HkY', function() {
+    loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyCtIekbNpzlfl4r1IMgu01FxFPcfpKctG8', function() {
       $('.g-map').each(function(){
             var id = $(this).attr('id');
             var color = $(this).attr('data-type');
@@ -687,13 +687,13 @@ POTENZA.googlemaps = function () {
          function init(id,clr) {
                 var mapOptions = {
                     zoom: 11,
-                    center: new google.maps.LatLng(-37.817078, 144.955936), //Update Latitude and Longitude here
+                    center: new google.maps.LatLng(52.164175, 21.044605), //Update Latitude and Longitude here
                     styles:clr 
                 };
                 var mapElement = document.getElementById(id);
                 var map = new google.maps.Map(mapElement, mapOptions);
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(52.164175, 21.044605),
                     map: map,
                     title: 'Snazzy!'
                 });
