@@ -1,4 +1,5 @@
 {% extends 'base/base.html' %}
+{% load i18n %}
 {% block content %}
 
 <!--=================================
@@ -10,13 +11,13 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="slider-content text-center">
-                        <h2 class="text-white">Web Development:
-                            <span class="typer" data-delay="100" data-words="Modern,Inexpensively,Fast"
+                        <h2 class="text-white">{% trans "Web Development" %}:
+                            <span class="typer" data-delay="100" data-words="{% trans 'Modern,Inexpensively,Fast' %}"
                                   data-colors="#84ba3f,#84ba3f,#84ba3f"></span>
                             <span class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
                         </h2>
-                        <p class="text-white mt-40">Professional websites creation at a reasonable price in a short
-                            time.</p>
+                        <p class="text-white mt-40">
+                            {% trans "Professional websites creation at a reasonable price in a short time" %}.</p>
                     </div>
                 </div>
             </div>
@@ -32,20 +33,18 @@ custom-content -->
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-lg-10 col-md-10 ">
-                <strong>Where modern technologies meet modern business</strong>
-                <h2 class="mt-20">Want to get a new website or update existing?</h2>
+                <strong>{% trans "Where modern technologies meet modern business" %}</strong>
+                <h2 class="mt-20">{% trans "Want to get a new website or update existing" %}?</h2>
                 <p class="normal mt-30">
-                    For any modern compnies it is very useful to have their own website. High quality site can increase
-                    your brand recognition, attract new customers and increase sales level. We deal with modern and
-                    professional sites' development for small and medium business.
+{% trans "For any modern compnies it is very useful to have their own website. High quality site can increase your brand recognition, attract new customers and increase sales level. We deal with modern and professional sites' development for small and medium business" %}.
                 </p>
                 <div class="action-box-button mt-40">
                     <a class="button icon xs-mb-10" href="/contact">
-                        <span>Write to us</span>
+                        <span>{% trans "Write to us" %}</span>
                         <i class="fa fa-pencil-square-o"></i>
                     </a>
                     <a class="button button-border" target="_blank" href="/portfolio">
-                        <span>View Portfolio</span>
+                        <span>{% trans "View Portfolio" %}</span>
                         <i class="fa fa-folder-open-o"></i>
                     </a>
                 </div>
@@ -53,7 +52,7 @@ custom-content -->
         </div>
     </div>
     <div class="mt-0">
-        <img class="img-fluid mx-auto" src="/static/images/bg/13.png" alt="">
+        <img class="img-fluid mx-auto" src="/static/images/bg/13.png" alt="Background">
     </div>
 </section>
 <!--=================================
@@ -66,10 +65,11 @@ custom-content -->
         <div class="row">
             <div class="col-md-10">
                 <div class="section-title">
-                    <h6>Our offer</h6>
-                    <h2 class="title-effect">Services</h2>
-                    <p>We have individual approach to ever customer. We carry out each order scrupulously and with
-                        responsibility. We take into account our customers' wishes and create only quality websites.</p>
+                    <h6>{% trans "Our offer" %}</h6>
+                    <h2 class="title-effect">{% trans "Services" %}</h2>
+                    <p>
+{% trans "We have individual approach to ever customer. We carry out each order scrupulously and with responsibility. We take into account our customers' wishes and create only quality websites" %}.
+                    </p>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ custom-content -->
                         <h4>{{ i.title }}</h4>
                         <p>{{ i.text }}</p>
                     </div>
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="/portfolio">{% trans "Portfolio" %}</a>
                     <div class="feature-box-img" style="background-image: url('{{ i.image.url }}');"></div>
                     <span class="feature-border"></span>
                 </div>
@@ -103,7 +103,7 @@ custom-content -->
                 <div class="col-md-12">
                     <div class="section-title text-center">
                         <h6></h6>
-                        <h2 class="title-effect">Our Portfolio</h2>
+                        <h2 class="title-effect">{% trans "Our Portfolio" %}</h2>
                     </div>
                 </div>
             </div>
@@ -113,15 +113,14 @@ custom-content -->
         <div class="row">
             <div class="col-lg-4">
                 <div class="portfolio-title section-title mt-md-5">
-                    <h6>Creative and modern</h6>
-                    <h2 class="title-effect">Our Latest Works</h2>
-                    <p class="mb-20">In the portfolio you can find the latest projects which you can look at and
-                        evaluate. We carry out each project carefully and diligently.</p>
-                    <span> We create websites for small and medium business owners. Subjects of these webpages are very
-                        different: restaurants, hotels, car rentals, repair and maintenance, beauty salons, barbershops,
-                        educational establishments, etc. We create websites for any sphere.
+                    <h6>{% trans "Creative and modern" %}</h6>
+                    <h2 class="title-effect">{% trans "Our Latest Works" %}</h2>
+                    <p class="mb-20">
+{% trans "In the portfolio you can find the latest projects which you can look at and evaluate. We carry out each project carefully and diligently" %}.</p>
+                    <span>
+{% trans "We create websites for small and medium business owners. Subjects of these webpages are very different: restaurants, hotels, car rentals, repair and maintenance, beauty salons, barbershops, educational establishments, etc. We create websites for any sphere" %}.
                     </span>
-                    <a class="button mt-30" href="/portfolio"> See all projects </a>
+                    <a class="button mt-30" href="/portfolio"> {% trans "See all projects" %}</a>
                 </div>
                 <div>
                 </div>
@@ -155,26 +154,26 @@ most Awesome- -->
         <div class="row">
             <div class="col-lg-6">
                 <div class="section-title">
-                    <h6 class="text-white">What we do?</h6>
-                    <h2 class="text-white title-effect">We help your business</h2>
-                    <p class="text-white">Your company website is an excellent tool for your brand recognition and sales
-                        level increasing. </p>
+                    <h6 class="text-white">{% trans "What we do" %}?</h6>
+                    <h2 class="text-white title-effect">{% trans "We help your business" %}</h2>
+                    <p class="text-white">
+        {% trans "Your company website is an excellent tool for your brand recognition and sales level increasing" %}.
+                    </p>
                 </div>
-                <p class="text-white">The website is your company's image in Internet. That's why every modern company
-                    should have its own website. And this website should have beautiful and modern design, be
-                    informative and represent your company in the best way.</p>
-                <h6 class="text-white">What do we offer?</h6>
+                <p class="text-white">
+{% trans "The website is your company's image in Internet. That's why every modern company should have its own website. And this website should have beautiful and modern design, be informative and represent your company in the best way" %}.</p>
+                <h6 class="text-white">{% trans "What do we offer" %}?</h6>
                 <div class="row mt-30">
                     <div class="col-sm-6">
                         <ul class="list list-unstyled list-hand">
-                            <li class="text-white"> High quality Web Development</li>
-                            <li class="text-white"> Modern design</li>
+                            <li class="text-white"> {% trans "High quality Web Development" %}</li>
+                            <li class="text-white"> {% trans "Modern design" %}</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list list-unstyled list-hand">
-                            <li class="text-white"> Domains' support</li>
-                            <li class="text-white"> Hosting support</li>
+                            <li class="text-white"> {% trans "Domains' support" %}</li>
+                            <li class="text-white"> {% trans "Hosting support" %}</li>
                         </ul>
                     </div>
                 </div>
@@ -192,13 +191,13 @@ action box- -->
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="action-box-text">
-                    <h3><strong> Webmaerd: </strong> Modern Web Development and web design</h3>
-                    <p>You can order website creation, web design, domain purchase and configuration, assistance with
-                        website placement on hosting, assistance with mail configuration for your domain.</p>
+                    <h3><strong> Webmaerd: </strong> {% trans "Modern Web Development and Web Design" %}</h3>
+                    <p>
+{% trans "You can order website creation, web design, domain purchase and configuration, assistance with website placement on hosting, assistance with mail configuration for your domain" %}.</p>
                 </div>
                 <div class="action-box-button">
                     <a class="button button-border white" href="/contact">
-                        <span>Contact US</span>
+                        <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>
                 </div>

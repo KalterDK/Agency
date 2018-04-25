@@ -1,4 +1,5 @@
 {% extends 'base/base.html' %}
+{% load i18n %}
 {% block content %}
 
 <!--=================================
@@ -10,12 +11,13 @@ page-title-->
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-title-name">
-                    <h1>Contact</h1>
-                    <p>We know the secret of your success</p>
+                    <h1>{% trans "Contact" %}</h1>
+                    <p>{% trans "We know the secret of your success" %}</p>
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
-                    <li><span>Contact</span></li>
+                    <li><a href="/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i
+                            class="fa fa-angle-double-right"></i></li>
+                    <li><span>{% trans "Contact" %}</span></li>
                 </ul>
             </div>
         </div>
@@ -43,8 +45,10 @@ page-title -->
                                         <span class="ti-map-alt theme-color"></span>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="text-white">ADDRESS</h5>
-                                        <p class="mb-0 text-white">Nowoursynowska street 161, 00-001, Warsaw, Poland</p>
+                                        <h5 class="text-white">{% trans "ADDRESS" %}</h5>
+                                        <p class="mb-0 text-white">
+                                            {% trans "Nowoursynowska street 161, 00-001, Warsaw, Poland" %}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -78,46 +82,48 @@ page-title -->
         <div class="row justify-content-center mt-30">
             <div class="col-md-10">
                 <div class="section-title text-center">
-                    <h6>let's work together</h6>
-                    <h2 class="title-effect">Contact Us</h2>
-                    <p class="mb-50">It would be great to hear from you! If you got any questions, please do not
-                        hesitate to send us a message. We are looking forward to hearing from you! We reply within <span
-                                class="tooltip-content theme-color" data-original-title="Mon-Fri 10am–7pm (GMT +1)"
-                                data-toggle="tooltip" data-placement="top"> 24 hours!</span></p>
+                    <h6>{% trans "let's work together" %}</h6>
+                    <h2 class="title-effect">{% trans "Contact Us" %}</h2>
+                    <p class="mb-50">
+{% trans "It would be great to hear from you! If you got any questions, please do not hesitate to send us a message. We are looking forward to hearing from you! We reply within" %}
+                        <span class="tooltip-content theme-color" data-original-title="Mon-Fri 10am–7pm (GMT +1)"
+                              data-toggle="tooltip" data-placement="top"> {% trans "24 hours!" %}</span></p>
                 </div>
             </div>
             <div class="col-lg-12">
-                <div id="formmessage">Success/Error Message Goes Here</div>
+                <div id="formmessage">{% trans "Success/Error Message Goes Here" %}</div>
                 <form role="form" method="post">
                     {% csrf_token %}
                     <div class="contact-form clearfix">
                         <div class="section-field">
-                            <input id="name" type="text" placeholder="Name*" class="form-control" name="name">
+                            <input id="name" type="text" placeholder="{% trans 'Name' %}*" class="form-control"
+                                   name="name">
                         </div>
                         <div class="section-field">
-                            <input type="email" placeholder="Email*" class="form-control" name="email">
+                            <input type="email" placeholder="{% trans 'Email' %}*" class="form-control" name="email">
                         </div>
                         <div class="section-field">
-                            <input type="text" placeholder="Phone*" class="form-control" name="phone">
+                            <input type="text" placeholder="{% trans 'Phone' %}*" class="form-control" name="phone">
                         </div>
                         <div class="subject-area">
-                            <input type="text" placeholder="Subject*" class="form-control" name="subject">
+                            <input type="text" placeholder="{% trans 'Subject' %}*" class="form-control" name="subject">
                         </div>
                         <div class="section-field textarea">
-                            <textarea class="input-message form-control" placeholder="Your message*" rows="7"
-                                      name="message"></textarea>
+                            <textarea class="input-message form-control" placeholder="{% trans 'Your message' %}*"
+                            rows="7" name="message"></textarea>
                         </div>
                         <!-- Google reCaptch-->
                         <!-- <div class="g-recaptcha section-field clearfix" data-sitekey="[Add your site key]"></div> -->
                         <div class="submit-button text-center">
                             <input type="hidden" name="action" value="sendEmail">
-                            <button id="submit" name="submit" type="submit" value="Send" class="button"><span> Send message </span>
+                            <button id="submit" name="submit" type="submit" value="Send" class="button"><span> {% trans "Send message" %} </span>
                                 <i class="fa fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </form>
                 <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block"
-                                                               src="/static/images/pre-loader/loader-01.svg" alt=""></div>
+                                                               src="/static/images/pre-loader/loader-01.svg" alt="">
+                </div>
             </div>
         </div>
         <div class="row mt-60">
@@ -139,13 +145,14 @@ action box- -->
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="action-box-text">
-                    <h3><strong> Webmaerd: </strong> Modern web development and web design</h3>
-                    <p>You can order website creation, web design, purchase and domain settings, help in placing the
-                        site on the hosting, assistance in setting up mail for your domain.</p>
+                    <h3><strong> Webmaerd: </strong> {% trans "Modern Web Development and Web Design" %}</h3>
+                    <p>
+{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain." %}
+                    </p>
                 </div>
                 <div class="action-box-button">
                     <a class="button button-border white" href="/contact">
-                        <span>Contact US</span>
+                        <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>
                 </div>

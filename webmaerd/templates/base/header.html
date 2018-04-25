@@ -49,10 +49,10 @@
                             <!-- menu links -->
                             <div class="menu-bar">
                                 <ul class="menu-links">
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/portfolio">Portfolio</a></li>
-                                    <li><a href="/faq">FAQ</a></li>
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/">{% trans "Home" %}</a></li>
+                                    <li><a href="/portfolio">{% trans "Portfolio" %}</a></li>
+                                    <li><a href="/faq">{% trans "FAQ" %}</a></li>
+                                    <li><a href="/contact">{% trans "Contact Us" %}</a></li>
                                     <li>
                                         {% get_current_language as LANGUAGE_CODE %}
                                         {% get_available_languages as LANGUAGES %}

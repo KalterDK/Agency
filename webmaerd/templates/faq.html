@@ -1,4 +1,5 @@
 {% extends 'base/base.html' %}
+{% load i18n %}
 {% block content %}
 
 <!--=================================
@@ -11,10 +12,10 @@ page-title-->
             <div class="col-lg-12">
                 <div class="page-title-name">
                     <h1>FAQ</h1>
-                    <p>Answers to frequently asked questions</p>
+                    <p>{% trans "Answers to frequently asked questions" %}</p>
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="/"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
+                    <li><a href="/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
                     <li><span>FAQ</span></li>
                 </ul>
             </div>
@@ -33,9 +34,9 @@ page-title -->
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="section-title text-center">
-                    <h6>Have a question?</h6>
-                    <h2 class="title-effect">Frequently Asked Questions</h2>
-                    <p>Most frequently asked questions regarding cooperation.</p>
+                    <h6>{% trans "Have a question" %}?</h6>
+                    <h2 class="title-effect">{% trans "Frequently Asked Questions" %}</h2>
+                    <p>{% trans "Most frequently asked questions regarding cooperation" %}.</p>
                 </div>
             </div>
         </div>
@@ -56,8 +57,9 @@ page-title -->
         </div>
         <div class="row">
             <div class="col-lg-12 text-center mt-40">
-                <h6> If you do not find the answer to your question listed within our FAQ's, you can always contact us
-                    directly at <a class="theme-color" href="mailto:contact@webmaerd.com"> contact@webmaerd.com</a></h6>
+                <h6>
+{% trans "If you do not find the answer to your question listed within our FAQ's, you can always contact us directly at" %}
+                    <a class="theme-color" href="mailto:contact@webmaerd.com"> contact@webmaerd.com</a></h6>
             </div>
         </div>
     </div>
@@ -75,13 +77,14 @@ action box- -->
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <div class="action-box-text">
-                    <h3><strong> Webmaerd: </strong> Modern web development and web design</h3>
-                    <p>You can order website creation, web design, purchase and domain settings, help in placing the
-                        site on the hosting, assistance in setting up mail for your domain.</p>
+                    <h3><strong> Webmaerd: </strong> {% trans "Modern Web Development and Web Design" %}</h3>
+                    <p>
+{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain" %}.
+                    </p>
                 </div>
                 <div class="action-box-button">
                     <a class="button button-border white" href="/contact">
-                        <span>Contact US</span>
+                        <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>
                 </div>
