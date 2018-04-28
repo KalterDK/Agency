@@ -6,6 +6,8 @@
      <div id="pre-loader">
         <img src="/static/images/pre-loader/loader-01.svg" alt="">
     </div>
+    {% load i18n %}
+    {% get_current_language as LANGUAGE_CODE %}
     {% include "base/header.html" %}
     {% block content %}
     {% endblock %}

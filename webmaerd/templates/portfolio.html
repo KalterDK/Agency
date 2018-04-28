@@ -1,4 +1,6 @@
 {% extends 'base/base.html' %}
+{% load i18n %}
+
 {% block content %}
 
 <!--=================================
@@ -13,8 +15,9 @@ page-title-->
                     <h1>{% trans "Our Portfolio" %}</h1>
                     <p>{% trans "Our Latest Works" %}</p>
                 </div>
+                LANGUAGE_CODE: {{ LANGUAGE_CODE }}
                 <ul class="page-breadcrumb">
-                    <li><a href="/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
+                    <li><a href="/{{ LANGUAGE_CODE }}/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
                     <li><span>{% trans "Portfolio" %}</span></li>
                 </ul>
             </div>
@@ -68,7 +71,7 @@ action box- -->
 {% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain" %}.</p>
                 </div>
                 <div class="action-box-button">
-                    <a class="button button-border white" href="/contact">
+                    <a class="button button-border white" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>

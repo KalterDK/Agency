@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-25 16:54+0200\n"
+"POT-Creation-Date: 2018-04-28 15:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+
 #: webmaerd/templates/base/footer.html:6
 msgid "Navigation"
 msgstr "Навигация"
 
-#: webmaerd/templates/base/footer.html:9
-#: webmaerd/templates/base/header.html:52 webmaerd/templates/contact.html:18
-#: webmaerd/templates/faq.html:18 webmaerd/templates/portfolio.html:17
-#: webmaerd/templates/success_page.html:17
+#: webmaerd/templates/base/footer.html:9 webmaerd/templates/base/header.html:52
+#: webmaerd/templates/contact.html:18 webmaerd/templates/faq.html:18
+#: webmaerd/templates/portfolio.html:17 webmaerd/templates/success_page.html:17
 msgid "Home"
 msgstr "Главная"
 
 #: webmaerd/templates/base/footer.html:10
-#: webmaerd/templates/base/header.html:53 webmaerd/templates/index.html:84
+#: webmaerd/templates/base/header.html:53 webmaerd/templates/index.html:85
 #: webmaerd/templates/portfolio.html:18
 msgid "Portfolio"
 msgstr "Портфолио"
@@ -80,15 +80,17 @@ msgid "let's work together"
 msgstr "Давайте работать вместе"
 
 #: webmaerd/templates/contact.html:88
-msgid ""
-"It would be great to hear from you! If you got any questions, please do not "
+msgid "It would be great to hear from you! If you got any questions, please do not "
 "hesitate to send us a message. We are looking forward to hearing from you! "
 "We reply within"
-msgstr "Мы будем рады, если вы свяжитесь с нами. Если у вас есть какие-либо вопросы, пожалуйста, не стесняйтесь и смело пишите нам. Мы с удовльствием всё с вами обсудим."
+msgstr ""
+"Мы будем рады, если вы свяжитесь с нами. Если у вас есть какие-либо вопросы, "
+"пожалуйста, не стесняйтесь и смело пишите нам. Мы с удовльствием всё с вами "
+"обсудим."
 
 #: webmaerd/templates/contact.html:90
-msgid "24 hours!"
-msgstr "24 часа!"
+msgid "24 hours"
+msgstr "24 часа"
 
 #: webmaerd/templates/contact.html:94
 msgid "Success/Error Message Goes Here"
@@ -115,20 +117,23 @@ msgid "Send message"
 msgstr "Отправить сообщение"
 
 #: webmaerd/templates/contact.html:148 webmaerd/templates/faq.html:80
-#: webmaerd/templates/portfolio.html:66
+#: webmaerd/templates/index.html:194 webmaerd/templates/portfolio.html:66
 #: webmaerd/templates/success_page.html:61
 msgid "Modern Web Development and Web Design"
 msgstr "Современная веб разработка и веб дизайн"
 
-#: webmaerd/templates/contact.html:150 webmaerd/templates/success_page.html:63
-msgid ""
-"You can order website creation, web design, purchase and domain settings, "
+#: webmaerd/templates/contact.html:150 webmaerd/templates/faq.html:82
+#: webmaerd/templates/portfolio.html:68 webmaerd/templates/success_page.html:63
+msgid "You can order website creation, web design, purchase and domain settings, "
 "help in placing the site on the hosting, assistance in setting up mail for "
-"your domain."
-msgstr "Вы можете заказать создание сайта, веб-дизайн, покупку и настройку домена, помощь в размещении сайта на хостинге, помощь в настройке почты для вашего домена."
+"your domain"
+msgstr ""
+"Вы можете заказать создание сайта, веб-дизайн, покупку и настройку домена, "
+"помощь в размещении сайта на хостинге, помощь в настройке почты для вашего "
+"домена"
 
 #: webmaerd/templates/contact.html:155 webmaerd/templates/faq.html:87
-#: webmaerd/templates/index.html:199 webmaerd/templates/portfolio.html:72
+#: webmaerd/templates/index.html:200 webmaerd/templates/portfolio.html:72
 #: webmaerd/templates/success_page.html:67
 msgid "Contact US"
 msgstr "Контакты"
@@ -153,36 +158,31 @@ msgstr "Ответы на часто задаваемые вопросы о со
 msgid ""
 "If you do not find the answer to your question listed within our FAQ's, you "
 "can always contact us directly at"
-msgstr "Если вы не нашли ответа на свой вопрос в этом разделе вы всегда можете задать нам свой вопрос написав на"
+msgstr ""
+"Если вы не нашли ответа на свой вопрос в этом разделе вы всегда можете "
+"задать нам свой вопрос написав на"
 
-#: webmaerd/templates/faq.html:82 webmaerd/templates/portfolio.html:68
-msgid ""
-"You can order website creation, web design, purchase and domain settings, "
-"help in placing the site on the hosting, assistance in setting up mail for "
-"your domain"
-msgstr "Вы можете заказать создание сайта, веб-дизайн, покупку и настройку домена, помощь в размещении сайта на хостинге, помощь в настройке почты для вашего домена"
-
-#: webmaerd/templates/index.html:13
+#: webmaerd/templates/index.html:14
 msgid "Web Development"
 msgstr "Веб Разработка"
 
-#: webmaerd/templates/index.html:14
+#: webmaerd/templates/index.html:15
 msgid "Modern,Inexpensively,Fast"
 msgstr "Современно,Недорого,Быстро"
 
-#: webmaerd/templates/index.html:19
+#: webmaerd/templates/index.html:20
 msgid "Professional websites creation at a reasonable price in a short time"
-msgstr "Создание профессиональных сайтов по доступным ценам."
+msgstr "Создание профессиональных сайтов по доступным ценам"
 
-#: webmaerd/templates/index.html:35
+#: webmaerd/templates/index.html:36
 msgid "Where modern technologies meet modern business"
 msgstr "Где современные технологии встречаются с современным бизнесом"
 
-#: webmaerd/templates/index.html:36
+#: webmaerd/templates/index.html:37
 msgid "Want to get a new website or update existing"
 msgstr "Хотите новый сайт или обновить уже существующий"
 
-#: webmaerd/templates/index.html:38
+#: webmaerd/templates/index.html:39
 msgid ""
 "For any modern compnies it is very useful to have their own website. High "
 "quality site can increase your brand recognition, attract new customers and "
@@ -190,106 +190,128 @@ msgid ""
 "development for small and medium business"
 msgstr ""
 
-#: webmaerd/templates/index.html:42
+#: webmaerd/templates/index.html:43
 msgid "Write to us"
-msgstr "Для любых современных компаний будет полезно иметь свой собственный сайт. Качественный сайт компании способен повысить узнаваемость вашего бренда, привлечь новых клиентов и повысить уровень продаж. Мы занимаемся разработкой современных и профессиональныйх сайтов для малого и среднего бизнеса"
+msgstr ""
+"Для любых современных компаний будет полезно иметь свой собственный сайт. "
+"Качественный сайт компании способен повысить узнаваемость вашего бренда, "
+"привлечь новых клиентов и повысить уровень продаж. Мы занимаемся разработкой "
+"современных и профессиональныйх сайтов для малого и среднего бизнеса"
 
-#: webmaerd/templates/index.html:46
+#: webmaerd/templates/index.html:47
 msgid "View Portfolio"
 msgstr "Посмотреть Портфолио"
 
-#: webmaerd/templates/index.html:67
+#: webmaerd/templates/index.html:68
 msgid "Our offer"
 msgstr "Наше предложение"
 
-#: webmaerd/templates/index.html:68
+#: webmaerd/templates/index.html:69
 msgid "Services"
 msgstr "Услуги"
 
-#: webmaerd/templates/index.html:70
+#: webmaerd/templates/index.html:71
 msgid ""
 "We have individual approach to ever customer. We carry out each order "
 "scrupulously and with responsibility. We take into account our customers' "
 "wishes and create only quality websites"
-msgstr "У нас индивидуальный подход к каждому клиенту. Каждый заказ мы выполняем скрупулезно и ответственно. Мы учитываем пожелания наших клиентов и создаём качественные веб-сайты"
+msgstr ""
+"У нас индивидуальный подход к каждому клиенту. Каждый заказ мы выполняем "
+"скрупулезно и ответственно. Мы учитываем пожелания наших клиентов и создаём "
+"качественные веб-сайты"
 
-#: webmaerd/templates/index.html:105 webmaerd/templates/portfolio.html:13
+#: webmaerd/templates/index.html:106 webmaerd/templates/portfolio.html:13
 msgid "Our Portfolio"
 msgstr "Наше Портфолио"
 
-#: webmaerd/templates/index.html:115
+#: webmaerd/templates/index.html:116
 msgid "Creative and modern"
 msgstr "Креативно и современно"
 
-#: webmaerd/templates/index.html:116 webmaerd/templates/portfolio.html:14
+#: webmaerd/templates/index.html:117 webmaerd/templates/portfolio.html:14
 msgid "Our Latest Works"
 msgstr "Наши последние работы"
 
-#: webmaerd/templates/index.html:118
+#: webmaerd/templates/index.html:119
 msgid ""
 "In the portfolio you can find the latest projects which you can look at and "
 "evaluate. We carry out each project carefully and diligently"
-msgstr "В портфолио представлены наши последние работы которые вы можете увидеть и оценить. Мы подходим к выполнению каждого проекта тщательно и старательно"
+msgstr ""
+"В портфолио представлены наши последние работы которые вы можете увидеть и "
+"оценить. Мы подходим к выполнению каждого проекта тщательно и старательно"
 
-#: webmaerd/templates/index.html:120
+#: webmaerd/templates/index.html:121
 msgid ""
 "We create websites for small and medium business owners. Subjects of these "
 "webpages are very different: restaurants, hotels, car rentals, repair and "
 "maintenance, beauty salons, barbershops, educational establishments, etc. We "
 "create websites for any sphere"
-msgstr "Мы создаем веб-сайты для владельцев малого и среднего бизнеса. Тематика сайтов самая разная: рестораны, гостиницы, прокат автомобилей, ремонт и техническое обслуживание, салоны красоты, парикмахерские, учебные заведения и так далее. Мы создаем веб-сайты для каждой сферы деятельности"
+msgstr ""
+"Мы создаем веб-сайты для владельцев малого и среднего бизнеса. Тематика "
+"сайтов самая разная: рестораны, гостиницы, прокат автомобилей, ремонт и "
+"техническое обслуживание, салоны красоты, парикмахерские, учебные заведения "
+"и так далее. Мы создаем веб-сайты для каждой сферы деятельности"
 
-#: webmaerd/templates/index.html:122
+#: webmaerd/templates/index.html:123
 msgid "See all projects"
 msgstr "Посмотреть все проекты"
 
-#: webmaerd/templates/index.html:156
+#: webmaerd/templates/index.html:157
 msgid "What we do"
 msgstr "Что мы делаем"
 
-#: webmaerd/templates/index.html:157
+#: webmaerd/templates/index.html:158
 msgid "We help your business"
 msgstr "Мы помогаем вашему бизнесу"
 
-#: webmaerd/templates/index.html:159
+#: webmaerd/templates/index.html:160
 msgid ""
 "Your company website is an excellent tool for your brand recognition and "
 "sales level increasing"
-msgstr "Сайт вашей компании – это отличный инструмент для повышения узнаваемости вашего бренда, а также для увеличения продаж вашей фирмы"
+msgstr ""
+"Сайт вашей компании – это отличный инструмент для повышения узнаваемости "
+"вашего бренда, а также для увеличения продаж вашей фирмы"
 
-#: webmaerd/templates/index.html:163
+#: webmaerd/templates/index.html:164
 msgid ""
 "The website is your company's image in Internet. That's why every modern "
 "company should have its own website. And this website should have beautiful "
 "and modern design, be informative and represent your company in the best way"
-msgstr "Сайт является лицом вашей компании в Интернете. Вот почему каждая современная компания должна иметь свой собственный сайт. И этот сайт должен иметь красивый и современный дизайн, быть информативным и представлять вашу компанию в лучшем свете"
+msgstr ""
+"Сайт является лицом вашей компании в Интернете. Вот почему каждая "
+"современная компания должна иметь свой собственный сайт. И этот сайт должен "
+"иметь красивый и современный дизайн, быть информативным и представлять вашу "
+"компанию в лучшем свете"
 
-#: webmaerd/templates/index.html:164
+#: webmaerd/templates/index.html:165
 msgid "What do we offer"
 msgstr "Что мы предлагаем"
 
-#: webmaerd/templates/index.html:168
+#: webmaerd/templates/index.html:169
 msgid "High quality Web Development"
 msgstr "Высококачественная веб-разработка"
 
-#: webmaerd/templates/index.html:169
+#: webmaerd/templates/index.html:170
 msgid "Modern design"
 msgstr "Современный дизайн"
 
-#: webmaerd/templates/index.html:174
+#: webmaerd/templates/index.html:175
 msgid "Domains' support"
 msgstr "Поддержка в обслуживании доменов"
 
-#: webmaerd/templates/index.html:175
+#: webmaerd/templates/index.html:176
 msgid "Hosting support"
 msgstr "Поддержка в обслуживании хостинга"
 
-#: webmaerd/templates/index.html:195
+#: webmaerd/templates/index.html:196
 msgid ""
 "You can order website creation, web design, domain purchase and "
 "configuration, assistance with website placement on hosting, assistance with "
 "mail configuration for your domain"
-msgstr "Вы можете заказать создание сайта, веб-дизайн, покупку и настройку домена, помощь в размещении сайта на хостинге, помощь в настройке почты для вашего домена"
+msgstr ""
+"Вы можете заказать создание сайта, веб-дизайн, покупку и настройку домена, "
+"помощь в размещении сайта на хостинге, помощь в настройке почты для вашего "
+"домена"
 
 #: webmaerd/templates/success_page.html:13
 #: webmaerd/templates/success_page.html:18

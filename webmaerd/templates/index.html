@@ -39,11 +39,11 @@ custom-content -->
 {% trans "For any modern compnies it is very useful to have their own website. High quality site can increase your brand recognition, attract new customers and increase sales level. We deal with modern and professional sites' development for small and medium business" %}.
                 </p>
                 <div class="action-box-button mt-40">
-                    <a class="button icon xs-mb-10" href="/contact">
+                    <a class="button icon xs-mb-10" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Write to us" %}</span>
                         <i class="fa fa-pencil-square-o"></i>
                     </a>
-                    <a class="button button-border" target="_blank" href="/portfolio">
+                    <a class="button button-border" target="_blank" href="/{{ LANGUAGE_CODE }}/portfolio">
                         <span>{% trans "View Portfolio" %}</span>
                         <i class="fa fa-folder-open-o"></i>
                     </a>
@@ -82,7 +82,7 @@ custom-content -->
                         <h4>{{ i.title }}</h4>
                         <p>{{ i.text }}</p>
                     </div>
-                    <a href="/portfolio">{% trans "Portfolio" %}</a>
+                    <a href="/{{ LANGUAGE_CODE }}/portfolio">{% trans "Portfolio" %}</a>
                     <div class="feature-box-img" style="background-image: url('{{ i.image.url }}');"></div>
                     <span class="feature-border"></span>
                 </div>
@@ -120,7 +120,7 @@ custom-content -->
                     <span>
 {% trans "We create websites for small and medium business owners. Subjects of these webpages are very different: restaurants, hotels, car rentals, repair and maintenance, beauty salons, barbershops, educational establishments, etc. We create websites for any sphere" %}.
                     </span>
-                    <a class="button mt-30" href="/portfolio"> {% trans "See all projects" %}</a>
+                    <a class="button mt-30" href="/{{ LANGUAGE_CODE }}/portfolio"> {% trans "See all projects" %}</a>
                 </div>
                 <div>
                 </div>
@@ -196,7 +196,7 @@ action box- -->
 {% trans "You can order website creation, web design, domain purchase and configuration, assistance with website placement on hosting, assistance with mail configuration for your domain" %}.</p>
                 </div>
                 <div class="action-box-button">
-                    <a class="button button-border white" href="/contact">
+                    <a class="button button-border white" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>

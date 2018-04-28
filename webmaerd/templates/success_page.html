@@ -39,8 +39,8 @@ page-title -->
                 </div>
                 <div class="error-info">
                     <p class="mb-50">{% trans "Thank you for contacting us. We will reply to you shortly" %}.</p>
-                    <a class="button xs-mb-10 " href="/">{% trans "back to home" %}</a>
-                    <a class="button button-border black" href="/contact">{% trans "back to Contact page" %}</a>
+                    <a class="button xs-mb-10 " href="/{{ LANGUAGE_CODE }}/">{% trans "back to home" %}</a>
+                    <a class="button button-border black" href="/{{ LANGUAGE_CODE }}/contact">{% trans "back to Contact page" %}</a>
                 </div>
             </div>
         </div>
@@ -60,10 +60,10 @@ action box- -->
                 <div class="action-box-text">
                     <h3><strong> Webmaerd: </strong> {% trans "Modern Web Development and Web Design" %}</h3>
                     <p>
-{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain." %}</p>
+{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain" %}.</p>
                 </div>
                 <div class="action-box-button">
-                    <a class="button button-border white" href="/contact">
+                    <a class="button button-border white" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>

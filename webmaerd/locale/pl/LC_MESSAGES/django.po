@@ -84,10 +84,10 @@ msgid ""
 "It would be great to hear from you! If you got any questions, please do not "
 "hesitate to send us a message. We are looking forward to hearing from you! "
 "We reply within"
-msgstr "Chętnie omówimy Twój projekt! Jeśli masz jakieś pytania, śmiało napisz do nas. Z niecierpliwością czekamy na wiadomość od Ciebie! Odpowiadamy w ciągu"
+msgstr "Chętnie omówimy Twój projekt! Jeśli masz jakieś pytania - śmiało napisz do nas. Z niecierpliwością czekamy na wiadomość od Ciebie! Odpowiadamy w ciągu"
 
 #: webmaerd/templates/contact.html:90
-msgid "24 hours!"
+msgid "24 hours"
 msgstr "24 godzin"
 
 #: webmaerd/templates/contact.html:94
@@ -124,7 +124,7 @@ msgstr "Nowoczesne projektowanie i tworzenie stron internetowych"
 msgid ""
 "You can order website creation, web design, purchase and domain settings, "
 "help in placing the site on the hosting, assistance in setting up mail for "
-"your domain."
+"your domain"
 msgstr "U nas można zamówić projektowanie i tworzenie stron internetowych, zakup i konfiguracja domen, pomoc w umieszczeniu strony na serwerze, pomoc w konfiguracji poczty dla Twojej domeny."
 
 #: webmaerd/templates/contact.html:155 webmaerd/templates/faq.html:87
@@ -153,34 +153,27 @@ msgstr "Najczęściej zadawane pytania ondośnie współpracy"
 msgid ""
 "If you do not find the answer to your question listed within our FAQ's, you "
 "can always contact us directly at"
-msgstr ""
-
-#: webmaerd/templates/faq.html:82 webmaerd/templates/portfolio.html:68
-msgid ""
-"You can order website creation, web design, purchase and domain settings, "
-"help in placing the site on the hosting, assistance in setting up mail for "
-"your domain"
-msgstr ""
+msgstr "Jeżeli nie znalazłeś odpowiedzi na swoje pytanie w tej liście zawsze możesz skontaktować się z nami bezpośrednio przez"
 
 #: webmaerd/templates/index.html:14
 msgid "Web Development"
-msgstr ""
+msgstr "Tworzenie stron internetowych"
 
 #: webmaerd/templates/index.html:15
 msgid "Modern,Inexpensively,Fast"
-msgstr ""
+msgstr "Nowocześnie,Niedrogo,Szybko"
 
 #: webmaerd/templates/index.html:20
 msgid "Professional websites creation at a reasonable price in a short time"
-msgstr ""
+msgstr "Profesjonalne tworzenie stron internetowych w rozsądnej cenie w krótkim czasie"
 
 #: webmaerd/templates/index.html:36
 msgid "Where modern technologies meet modern business"
-msgstr ""
+msgstr "Gdzie nowoczesne technologie spotykają się z nowoczesnym biznesem"
 
 #: webmaerd/templates/index.html:37
 msgid "Want to get a new website or update existing"
-msgstr ""
+msgstr "Chcesz uzyskać nową stronę internetową lub aktualizować istniejącą"
 
 #: webmaerd/templates/index.html:39
 msgid ""
@@ -188,48 +181,48 @@ msgid ""
 "quality site can increase your brand recognition, attract new customers and "
 "increase sales level. We deal with modern and professional sites' "
 "development for small and medium business"
-msgstr ""
+msgstr "Dla każdej współczesnej firmy bardzo przydatne jest posiadanie własnej strony internetowej. Witryna o wysokiej jakości może zwiększyć rozpoznawalność marki, przyciągnąć nowych klientów i podnieść poziom sprzedaży. Zajmujemy się tworzeniem nowoczesnych i profesjonalnych witryn dla małych i średnich firm"
 
 #: webmaerd/templates/index.html:43
 msgid "Write to us"
-msgstr ""
+msgstr "Napisz do nas"
 
 #: webmaerd/templates/index.html:47
 msgid "View Portfolio"
-msgstr ""
+msgstr "Zobaczyć Portfolio"
 
 #: webmaerd/templates/index.html:68
 msgid "Our offer"
-msgstr ""
+msgstr "Nasza oferta"
 
 #: webmaerd/templates/index.html:69
 msgid "Services"
-msgstr ""
+msgstr "Usługi"
 
 #: webmaerd/templates/index.html:71
 msgid ""
 "We have individual approach to ever customer. We carry out each order "
 "scrupulously and with responsibility. We take into account our customers' "
 "wishes and create only quality websites"
-msgstr ""
+msgstr "Mamy indywidualne podejście do klienta. Wszystkie zlecenia wykonujemy skrupulatnie i odpowiedzialnie. Bierzemy pod uwagę życzenia naszych klientów i tworzymy tylko wysokiej jakości strony internetowe"
 
 #: webmaerd/templates/index.html:106 webmaerd/templates/portfolio.html:13
 msgid "Our Portfolio"
-msgstr ""
+msgstr "Nasze Portfolio"
 
 #: webmaerd/templates/index.html:116
 msgid "Creative and modern"
-msgstr ""
+msgstr "Kreatywnie i nowocześnie"
 
 #: webmaerd/templates/index.html:117 webmaerd/templates/portfolio.html:14
 msgid "Our Latest Works"
-msgstr ""
+msgstr "Nasze ostatnie projekty"
 
 #: webmaerd/templates/index.html:119
 msgid ""
 "In the portfolio you can find the latest projects which you can look at and "
 "evaluate. We carry out each project carefully and diligently"
-msgstr ""
+msgstr "W portfolio można znaleźć nasze ostatnie projekty, które możesz obejrzeć i ocenić. Wykonujemy każdy projekt starannie i sumiennie"
 
 #: webmaerd/templates/index.html:121
 msgid ""
@@ -237,81 +230,74 @@ msgid ""
 "webpages are very different: restaurants, hotels, car rentals, repair and "
 "maintenance, beauty salons, barbershops, educational establishments, etc. We "
 "create websites for any sphere"
-msgstr ""
+msgstr "Tworzymy witryny dla małych i średnich firm. Tematy tych stron są bardzo różne: restauracje, hotele, wypożyczalnie samochodów, naprawy i konserwacje, salony piękności, salony fryzjerskie, placówki edukacyjne itp. Jeśteśmy w stanie stworzyć witrynę dla każdej branży"
 
 #: webmaerd/templates/index.html:123
 msgid "See all projects"
-msgstr ""
+msgstr "Zobaczyć wszystkie projekty"
 
 #: webmaerd/templates/index.html:157
 msgid "What we do"
-msgstr ""
+msgstr "Co robimy"
 
 #: webmaerd/templates/index.html:158
 msgid "We help your business"
-msgstr ""
+msgstr "Pomagamy Twojemu biznesu"
 
 #: webmaerd/templates/index.html:160
 msgid ""
 "Your company website is an excellent tool for your brand recognition and "
 "sales level increasing"
-msgstr ""
+msgstr "Strona internetowa Twojej firmy jest doskonałym narzędziem do zwiększenia rozpoznawania marki i poziomu sprzedaży"
 
 #: webmaerd/templates/index.html:164
 msgid ""
 "The website is your company's image in Internet. That's why every modern "
 "company should have its own website. And this website should have beautiful "
 "and modern design, be informative and represent your company in the best way"
-msgstr ""
+msgstr "Strona internetowa to wizerunek Twojej firmy w Internecie. Dlatego każda nowoczesna firma powinna mieć własną stronę internetową. Ta strona powinna mieć piękny i nowoczesny wygląd, być informatywna i najlepiej reprezentować firmę"
 
 #: webmaerd/templates/index.html:165
 msgid "What do we offer"
-msgstr ""
+msgstr "Co oferujemy"
 
 #: webmaerd/templates/index.html:169
 msgid "High quality Web Development"
-msgstr ""
+msgstr "Wysokiej jakości tworzenie stron internetowych"
 
 #: webmaerd/templates/index.html:170
 msgid "Modern design"
-msgstr ""
+msgstr "Nowoczesny design"
 
 #: webmaerd/templates/index.html:175
 msgid "Domains' support"
-msgstr ""
+msgstr "Obsługa domenów"
 
 #: webmaerd/templates/index.html:176
 msgid "Hosting support"
-msgstr ""
-
-#: webmaerd/templates/index.html:196
-msgid ""
-"You can order website creation, web design, domain purchase and "
-"configuration, assistance with website placement on hosting, assistance with "
-"mail configuration for your domain"
-msgstr ""
+msgstr "Obsługa hostingu"
 
 #: webmaerd/templates/success_page.html:13
 #: webmaerd/templates/success_page.html:18
 msgid "Success page"
-msgstr ""
+msgstr "Sukces"
 
 #: webmaerd/templates/success_page.html:37
 msgid "Success"
-msgstr ""
+msgstr "Sukces"
 
 #: webmaerd/templates/success_page.html:38
 msgid "Your message has been successfully sent"
-msgstr ""
+msgstr "Twoja wiadomość została wysłana pomyślnie"
 
 #: webmaerd/templates/success_page.html:41
 msgid "Thank you for contacting us. We will reply to you shortly"
-msgstr ""
+msgstr "Dziękujemy za skontaktowanie się z nami. Wkrótce odpowiemy Ci"
 
 #: webmaerd/templates/success_page.html:42
 msgid "back to home"
-msgstr ""
+msgstr "na główną stronę"
 
 #: webmaerd/templates/success_page.html:43
 msgid "back to Contact page"
-msgstr ""
+msgstr "na strone Kontaktów"

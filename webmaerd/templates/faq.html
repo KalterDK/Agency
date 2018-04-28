@@ -1,5 +1,6 @@
 {% extends 'base/base.html' %}
 {% load i18n %}
+
 {% block content %}
 
 <!--=================================
@@ -15,7 +16,7 @@ page-title-->
                     <p>{% trans "Answers to frequently asked questions" %}</p>
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
+                    <li><a href="/{{ LANGUAGE_CODE }}/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
                     <li><span>FAQ</span></li>
                 </ul>
             </div>
@@ -83,7 +84,7 @@ action box- -->
                     </p>
                 </div>
                 <div class="action-box-button">
-                    <a class="button button-border white" href="/contact">
+                    <a class="button button-border white" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>

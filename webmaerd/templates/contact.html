@@ -15,7 +15,7 @@ page-title-->
                     <p>{% trans "We know the secret of your success" %}</p>
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i
+                    <li><a href="/{{ LANGUAGE_CODE }}/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i
                             class="fa fa-angle-double-right"></i></li>
                     <li><span>{% trans "Contact" %}</span></li>
                 </ul>
@@ -59,7 +59,7 @@ page-title -->
                                     </div>
                                     <div class="media-body">
                                         <h5 class="text-white">SKYPE</h5>
-                                        <p class="mb-0 text-white">+(704) 279-1249</p>
+                                        <p class="mb-0 text-white">Webmaerd Support</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ page-title -->
                     <p class="mb-50">
 {% trans "It would be great to hear from you! If you got any questions, please do not hesitate to send us a message. We are looking forward to hearing from you! We reply within" %}
                         <span class="tooltip-content theme-color" data-original-title="Mon-Fri 10am–7pm (GMT +1)"
-                              data-toggle="tooltip" data-placement="top"> {% trans "24 hours!" %}</span></p>
+                              data-toggle="tooltip" data-placement="top"> {% trans "24 hours" %}!</span></p>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -147,11 +147,11 @@ action box- -->
                 <div class="action-box-text">
                     <h3><strong> Webmaerd: </strong> {% trans "Modern Web Development and Web Design" %}</h3>
                     <p>
-{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain." %}
+{% trans "You can order website creation, web design, purchase and domain settings, help in placing the site on the hosting, assistance in setting up mail for your domain" %}.
                     </p>
                 </div>
                 <div class="action-box-button">
-                    <a class="button button-border white" href="/contact">
+                    <a class="button button-border white" href="/{{ LANGUAGE_CODE }}/contact">
                         <span>{% trans "Contact US" %}</span>
                         <i class="fa fa-envelope-o"></i>
                     </a>
