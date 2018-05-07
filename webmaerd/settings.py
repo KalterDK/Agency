@@ -23,6 +23,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -80,6 +81,8 @@ LANGUAGES = (
     ('ru', 'Russian'),
     ('pl', 'Polish'),
 )
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR+'/webmaerd/', 'locale'),
