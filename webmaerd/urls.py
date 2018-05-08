@@ -17,7 +17,7 @@ urlpatterns += i18n_patterns(
     url(r'^portfolio/$', views.portfolio, name="Portfolio"),
     url(r'^faq/$', views.faq, name="FAQ"),
     url(r'^contact/$', views.contact, name="contact"),
-    url(r'^success_page/$', TemplateView.as_view(template_name="success_page.html"), name="Success page"),
+    url(r'^success-page/$', TemplateView.as_view(template_name="success_page.html"), name="Success page"),
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

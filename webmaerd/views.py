@@ -66,7 +66,7 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found')
 
-            return redirect('/success_page')
+            return redirect('/' + request.LANGUAGE_CODE + '/success-page')
 
     else:
         cform = ContactForm()
