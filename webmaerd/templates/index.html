@@ -80,7 +80,7 @@ custom-content -->
                     <div class="feature-box-content">
                         <i class="{{ i.icon }}"></i>
                         <h4>{{ i.title }}</h4>
-                        <p>{{ i.text }}</p>
+                        {{ i.text|safe }}
                     </div>
                     <a href="/{{ LANGUAGE_CODE }}/portfolio">{% trans "Portfolio" %}</a>
                     <div class="feature-box-img" style="background-image: url('{{ i.image.url }}');"></div>
