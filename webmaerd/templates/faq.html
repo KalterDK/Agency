@@ -16,7 +16,7 @@ page-title-->
                     <p>{% trans "Answers to frequently asked questions" %}</p>
                 </div>
                 <ul class="page-breadcrumb">
-                    <li><a href="/{{ LANGUAGE_CODE }}/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
+                    <li><a href="/{{ LANGUAGE_CODE }}/" title="Homepage"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
                     <li><span>FAQ</span></li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@ page-title -->
                 <div class="accordion shadow">
                     {% for i in questions %}
                     <div class="acd-group {% if i == questions|first %}acd-active{% endif %}">
-                        <a href="#" class="acd-heading">{{ i.title_short }}</a>
+                        <a href="#" class="acd-heading" title="Project">{{ i.title_short }}</a>
                         <div class="acd-des">
                             <h5>{{ i.title_long }}</h5>
                             {{ i.text|safe }}

@@ -82,7 +82,7 @@ custom-content -->
                         <h4>{{ i.title }}</h4>
                         {{ i.text|safe }}
                     </div>
-                    <a href="/{{ LANGUAGE_CODE }}/portfolio">{% trans "Portfolio" %}</a>
+                    <a href="/{{ LANGUAGE_CODE }}/portfolio" title="Portfolio">{% trans "Portfolio" %}</a>
                     <div class="feature-box-img" style="background-image: url('{{ i.image.url }}');"></div>
                     <span class="feature-border"></span>
                 </div>
@@ -132,7 +132,7 @@ custom-content -->
                         <div class="portfolio-item">
                             <img src="{{ i.image.url }}" alt="{{ i.title }}">
                             <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="{{ i.url }}"> {{ i.title }} </a></h4>
+                                <h4 class="text-white"><a href="{{ i.url }}" title="{{ i.title }}"> {{ i.title }} </a></h4>
                                 <span class="text-white"> {{ i.text }} </span>
                             </div>
                             <a class="popup portfolio-img" href="{{ i.image.url }}"><i class="fa fa-arrows-alt"></i></a>

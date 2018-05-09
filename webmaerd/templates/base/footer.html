@@ -6,10 +6,10 @@
                 <h6 class="text-white mb-10 mt-10 text-uppercase">{% trans "Navigation" %}:</h6>
                 <div class="footer-social">
                     <ul>
-                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/">{% trans "Home" %}</a>&nbsp;&nbsp;&nbsp;|</li>
-                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/portfolio">{% trans "Portfolio" %}</a>&nbsp;&nbsp;&nbsp;|</li>
-                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/contact">{% trans "Contact Us" %}</a>&nbsp;&nbsp;&nbsp;|</li>
-                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/faq">{% trans "FAQ" %}</a></li>
+                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/" title="Homepage">{% trans "Home" %}</a>&nbsp;&nbsp;&nbsp;|</li>
+                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/portfolio" title="Portfolio">{% trans "Portfolio" %}</a>&nbsp;&nbsp;&nbsp;|</li>
+                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/contact" title="Contact">{% trans "Contact Us" %}</a>&nbsp;&nbsp;&nbsp;|</li>
+                        <li class="list-inline-item"><a href="/{{ LANGUAGE_CODE }}/faq" title="FAQ">{% trans "FAQ" %}</a></li>
                     </ul>
                 </div>
 
@@ -23,12 +23,13 @@
             <div class="col-lg-4 col-sm-4 xs-mb-10 text-left text-md-right">
                 <div class="social-icons color-hover mt-10">
                     <ul>
-                        <li class="social-facebook"><a href="https://www.facebook.com/groups/webmaerd"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-twitter"><a href="https://www.instagram.com/webmaerd/"><i class="fa fa-instagram"></i></a></li>
-                        <li class="social-twitter"><a href="https://twitter.com/webmaerd_com"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-linkedin"><a href="https://www.linkedin.com/groups/12118604"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="social-facebook"><a href="https://vk.com/webmaerd"><i class="fa fa-vk"></i></a></li>
+                        <li class="social-facebook"><a href="https://www.facebook.com/groups/webmaerd" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-twitter"><a href="https://www.instagram.com/webmaerd/" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li class="social-twitter"><a href="https://twitter.com/webmaerd_com" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-linkedin"><a href="https://www.linkedin.com/groups/12118604" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-facebook"><a href="https://vk.com/webmaerd" title="vkontakte"><i class="fa fa-vk"></i></a></li>
                     </ul>
+                    <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwebmaerd.com%2F&width=160&layout=button&action=like&size=small&show_faces=true&share=true&height=65&appId=409758692827944" width="160" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
@@ -36,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <p class="mt-15"> &copy;Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span>
-                        <a href="/"> Webmaerd </a> {% trans "All Rights Reserved" %}
+                        <a href="/" title="Webmaerd"> Webmaerd </a> {% trans "All Rights Reserved" %}
                     </p>
                 </div>
             </div>

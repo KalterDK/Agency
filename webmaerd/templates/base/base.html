@@ -4,7 +4,7 @@
 <body>
 <div class="wrapper">
      <div id="pre-loader">
-        <img src="/static/images/pre-loader/loader-01.svg" alt="">
+        <img src="/static/images/pre-loader/loader-01.svg" alt="pre-loader">
     </div>
     {% load i18n %}
     {% get_current_language as LANGUAGE_CODE %}
@@ -13,7 +13,7 @@
     {% endblock %}
     {% include "base/footer.html" %}
 </div>
-    <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
+    <div id="back-to-top"><a class="top arrow" href="#top" title="TOP"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
     {% include "base/js.html" %}
 </body>
 </html>

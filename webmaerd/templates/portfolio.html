@@ -17,7 +17,7 @@ page-title-->
                 </div>
                 LANGUAGE_CODE: {{ LANGUAGE_CODE }}
                 <ul class="page-breadcrumb">
-                    <li><a href="/{{ LANGUAGE_CODE }}/"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
+                    <li><a href="/{{ LANGUAGE_CODE }}/" title="Homepage"><i class="fa fa-home"></i> {% trans "Home" %}</a> <i class="fa fa-angle-double-right"></i></li>
                     <li><span>{% trans "Portfolio" %}</span></li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@ page-title -->
                         <div class="portfolio-item">
                             <img src="{{ i.image.url }}" alt="{{ i.title }}">
                             <div class="portfolio-overlay">
-                                <h4 class="text-white"><a href="{{ i.url }}"> {{ i.title }} </a></h4>
+                                <h4 class="text-white"><a href="{{ i.url }}" title="{{ i.title }}"> {{ i.title }} </a></h4>
                                 <span class="text-white"> {{ i.text }} </span>
                             </div>
                             <a class="popup portfolio-img" href="{{ i.image.url }}"><i class="fa fa-arrows-alt"></i></a>

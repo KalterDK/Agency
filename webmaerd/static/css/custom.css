@@ -7,3 +7,9 @@
     top: auto;
     max-width: 110px;
 }
+
+.h1-header {
+    color: #fff;
+    font-size: 13px;
+    line-height: 0px;
+}
