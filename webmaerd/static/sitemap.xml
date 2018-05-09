@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>http://webmaerd.com/en/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/ru/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/pl/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/en/portfolio/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/portfolio/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/ru/portfolio/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/portfolio/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/pl/portfolio/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/portfolio/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/portfolio/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/en/faq/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/faq/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/faq/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/ru/faq/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/faq/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/faq/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/pl/faq/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/faq/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/faq/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/faq/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/en/contact/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/contact/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/contact/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/ru/contact/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/contact/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/contact/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/pl/contact/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/contact/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/contact/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/contact/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/en/success-page/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/success-page/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/success-page/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/ru/success-page/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/success-page/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/success-page/" />
+	</url>
+	<url>
+		<loc>http://webmaerd.com/pl/success-page/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="en" href="http://webmaerd.com/en/success-page/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="http://webmaerd.com/ru/success-page/" />
+		<xhtml:link rel="alternate" hreflang="pl" href="http://webmaerd.com/pl/success-page/" />
+	</url>
+</urlset>

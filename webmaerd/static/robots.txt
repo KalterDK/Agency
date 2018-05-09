@@ -10,4 +10,4 @@ Allow: *.css
 Allow: *.js
 Disallow: /admin
 
-sitemap: http://webmaerd.com/static/sitemap.txt
+sitemap: http://webmaerd.com/static/sitemap.xml

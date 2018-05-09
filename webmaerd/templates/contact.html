@@ -97,20 +97,23 @@ page-title -->
                     <div class="contact-form clearfix">
                         <div class="section-field">
                             <input id="name" type="text" placeholder="{% trans 'Name' %}*" class="form-control"
-                                   name="name">
+                                   name="name" required>
                         </div>
                         <div class="section-field">
-                            <input type="email" placeholder="{% trans 'Email' %}*" class="form-control" name="email">
+                            <input type="email" placeholder="{% trans 'Email' %}*" class="form-control" name="email"
+                                   required>
                         </div>
                         <div class="section-field">
-                            <input type="text" placeholder="{% trans 'Phone' %}*" class="form-control" name="phone">
+                            <input type="text" placeholder="{% trans 'Phone' %}*" class="form-control" name="phone"
+                                   required>
                         </div>
                         <div class="subject-area">
-                            <input type="text" placeholder="{% trans 'Subject' %}*" class="form-control" name="subject">
+                            <input type="text" placeholder="{% trans 'Subject' %}*" class="form-control" name="subject"
+                                   required>
                         </div>
                         <div class="section-field textarea">
                             <textarea class="input-message form-control" placeholder="{% trans 'Your message' %}*"
-                            rows="7" name="message"></textarea>
+                            rows="7" name="message" required></textarea>
                         </div>
                         <!-- Google reCaptch-->
                         <!-- <div class="g-recaptcha section-field clearfix" data-sitekey="[Add your site key]"></div> -->
