@@ -30,11 +30,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'webmaerd',
+    'agency',
 ]
 
 MIDDLEWARE_CLASSES = [
-    'webmaerd.force_default_middleware.ForceDefaultLanguageMiddleware',
+    'agency.force_default_middleware.ForceDefaultLanguageMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -45,12 +45,12 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
 ]
 
-ROOT_URLCONF = 'webmaerd.urls'
+ROOT_URLCONF = 'agency.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR + '/webmaerd/templates/'],
+        'DIRS': [BASE_DIR + '/agency/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'webmaerd.wsgi.application'
+WSGI_APPLICATION = 'agency.wsgi.application'
 
 
 # Database
@@ -85,7 +85,7 @@ LANGUAGES = (
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR+'/webmaerd/', 'locale'),
+    os.path.join(BASE_DIR+'/agency/', 'locale'),
     'locale',
 )
 
@@ -131,7 +131,7 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR+'/webmaerd/', 'static'), )
+STATICFILES_DIRS = (os.path.join(BASE_DIR+'/agency/', 'static'), )
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = '*****'
