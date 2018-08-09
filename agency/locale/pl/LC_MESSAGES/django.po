@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 15:31+0200\n"
+"POT-Creation-Date: 2018-08-09 12:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,285 +19,348 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-#: webmaerd/templates/base/footer.html:6
+
+#: agency/templates/base/footer.html:6
 msgid "Navigation"
 msgstr "Nawigacja"
 
-#: webmaerd/templates/base/footer.html:9
-#: webmaerd/templates/base/header.html:52 webmaerd/templates/contact.html:18
-#: webmaerd/templates/faq.html:18 webmaerd/templates/portfolio.html:17
-#: webmaerd/templates/success_page.html:17
+#: agency/templates/base/footer.html:9 agency/templates/base/header.html:62
+#: agency/templates/contact.html:19 agency/templates/faq.html:19
+#: agency/templates/portfolio.html:20 agency/templates/success_page.html:20
 msgid "Home"
 msgstr "Home"
 
-#: webmaerd/templates/base/footer.html:10
-#: webmaerd/templates/base/header.html:53 webmaerd/templates/index.html:85
-#: webmaerd/templates/portfolio.html:18
+#: agency/templates/base/footer.html:10 agency/templates/base/header.html:63
+#: agency/templates/index.html:85 agency/templates/portfolio.html:21
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: webmaerd/templates/base/footer.html:11
-#: webmaerd/templates/base/footer.html:18
-#: webmaerd/templates/base/header.html:55 webmaerd/templates/contact.html:86
+#: agency/templates/base/footer.html:11 agency/templates/base/footer.html:18
+#: agency/templates/base/header.html:65 agency/templates/contact.html:87
 msgid "Contact Us"
 msgstr "Kontakt"
 
-#: webmaerd/templates/base/footer.html:12
-#: webmaerd/templates/base/header.html:54
+#: agency/templates/base/footer.html:12 agency/templates/base/header.html:64
 msgid "FAQ"
 msgstr "FAQ"
 
-#: webmaerd/templates/base/footer.html:20 webmaerd/templates/contact.html:103
+#: agency/templates/base/footer.html:20 agency/templates/contact.html:104
 msgid "Email"
 msgstr "Email"
 
-#: webmaerd/templates/base/footer.html:38
+#: agency/templates/base/footer.html:45
 msgid "All Rights Reserved"
 msgstr "All Rights Reserved"
 
-#: webmaerd/templates/base/head.html:6 webmaerd/templates/base/head.html:9
-msgid "web development agency"
-msgstr "projektowanie i tworzenie stron internetowych"
+#: agency/templates/base/head.html:5
+msgid ""
+"Webmaerd, Web Development, Web Design, web, domain, hosting, development, "
+"agency, web page, website, site, site creation, order site, order web page, "
+"programming"
+msgstr ""
 
-#: webmaerd/templates/contact.html:14 webmaerd/templates/contact.html:20
+#: agency/templates/base/head.html:6 agency/templates/base/head.html:12
+#: agency/templates/base/head.html:17
+msgid ""
+"Webmaerd is Web Development and Web Design Agency. Professional websites "
+"creation at a reasonable price in a short time. We deal with modern and "
+"professional sites development for small and medium business. Additional "
+"services provided: Domains and Hosting support."
+msgstr ""
+
+#: agency/templates/base/head.html:11 agency/templates/base/head.html:16
+#, fuzzy
+#| msgid "Modern Web Development and Web Design"
+msgid "Web Development and Web Design Agency"
+msgstr "Nowoczesne projektowanie i tworzenie stron internetowych"
+
+#: agency/templates/base/head.html:20
+#, fuzzy
+#| msgid "Modern Web Development and Web Design"
+msgid "Web Development and Web Design Agency. Websites creation"
+msgstr "Nowoczesne projektowanie i tworzenie stron internetowych"
+
+#: agency/templates/contact.html:14 agency/templates/contact.html:21
 msgid "Contact"
 msgstr "Kontakt"
 
-#: webmaerd/templates/contact.html:15 webmaerd/templates/success_page.html:14
+#: agency/templates/contact.html:15 agency/templates/success_page.html:16
 msgid "We know the secret of your success"
 msgstr "Znamy sekret Twojego sukcesu "
 
-#: webmaerd/templates/contact.html:48
+#: agency/templates/contact.html:49
 msgid "ADDRESS"
 msgstr "ADRES"
 
-#: webmaerd/templates/contact.html:50
+#: agency/templates/contact.html:51
 msgid "Nowoursynowska street 161, 00-001, Warsaw, Poland"
 msgstr "ul. Nowoursynowska 161, 00-001, Warszawa, Polska"
 
-#: webmaerd/templates/contact.html:85
+#: agency/templates/contact.html:86
 msgid "let's work together"
 msgstr "pracujmy razem"
 
-#: webmaerd/templates/contact.html:88
+#: agency/templates/contact.html:89
 msgid ""
 "It would be great to hear from you! If you got any questions, please do not "
 "hesitate to send us a message. We are looking forward to hearing from you! "
 "We reply within"
-msgstr "Chętnie omówimy Twój projekt! Jeśli masz jakieś pytania - śmiało napisz do nas. Z niecierpliwością czekamy na wiadomość od Ciebie! Odpowiadamy w ciągu"
+msgstr ""
+"Chętnie omówimy Twój projekt! Jeśli masz jakieś pytania - śmiało napisz do "
+"nas. Z niecierpliwością czekamy na wiadomość od Ciebie! Odpowiadamy w ciągu"
 
-#: webmaerd/templates/contact.html:90
+#: agency/templates/contact.html:91
 msgid "24 hours"
 msgstr "24 godzin"
 
-#: webmaerd/templates/contact.html:94
+#: agency/templates/contact.html:95
 msgid "Success/Error Message Goes Here"
 msgstr "Success/Error Message Goes Here"
 
-#: webmaerd/templates/contact.html:99
+#: agency/templates/contact.html:100
 msgid "Name"
 msgstr "Imię"
 
-#: webmaerd/templates/contact.html:106
+#: agency/templates/contact.html:108
 msgid "Phone"
 msgstr "Numer telefonu"
 
-#: webmaerd/templates/contact.html:109
+#: agency/templates/contact.html:112
 msgid "Subject"
 msgstr "Temat"
 
-#: webmaerd/templates/contact.html:112
+#: agency/templates/contact.html:116
 msgid "Your message"
 msgstr "Twoja wiadomość"
 
-#: webmaerd/templates/contact.html:119
+#: agency/templates/contact.html:124
 msgid "Send message"
 msgstr "Wysłać wiadomość"
 
-#: webmaerd/templates/contact.html:148 webmaerd/templates/faq.html:80
-#: webmaerd/templates/index.html:194 webmaerd/templates/portfolio.html:66
-#: webmaerd/templates/success_page.html:61
+#: agency/templates/contact.html:154 agency/templates/faq.html:81
+#: agency/templates/index.html:194 agency/templates/portfolio.html:69
+#: agency/templates/success_page.html:66
 msgid "Modern Web Development and Web Design"
 msgstr "Nowoczesne projektowanie i tworzenie stron internetowych"
 
-#: webmaerd/templates/contact.html:150 webmaerd/templates/success_page.html:63
+#: agency/templates/contact.html:156 agency/templates/faq.html:83
+#: agency/templates/portfolio.html:71 agency/templates/success_page.html:68
 msgid ""
 "You can order website creation, web design, purchase and domain settings, "
 "help in placing the site on the hosting, assistance in setting up mail for "
 "your domain"
-msgstr "U nas można zamówić projektowanie i tworzenie stron internetowych, zakup i konfiguracja domen, pomoc w umieszczeniu strony na serwerze, pomoc w konfiguracji poczty dla Twojej domeny."
+msgstr ""
+"U nas można zamówić projektowanie i tworzenie stron internetowych, zakup i "
+"konfiguracja domen, pomoc w umieszczeniu strony na serwerze, pomoc w "
+"konfiguracji poczty dla Twojej domeny."
 
-#: webmaerd/templates/contact.html:155 webmaerd/templates/faq.html:87
-#: webmaerd/templates/index.html:200 webmaerd/templates/portfolio.html:72
-#: webmaerd/templates/success_page.html:67
+#: agency/templates/contact.html:161 agency/templates/faq.html:88
+#: agency/templates/index.html:200 agency/templates/portfolio.html:75
+#: agency/templates/success_page.html:72
 msgid "Contact US"
 msgstr "Kontakt"
 
-#: webmaerd/templates/faq.html:15
+#: agency/templates/faq.html:16
 msgid "Answers to frequently asked questions"
 msgstr "Odpowiedzi na najczęściej zadawane pytania"
 
-#: webmaerd/templates/faq.html:37
+#: agency/templates/faq.html:38
 msgid "Have a question"
 msgstr "Masz pytania"
 
-#: webmaerd/templates/faq.html:38
+#: agency/templates/faq.html:39
 msgid "Frequently Asked Questions"
 msgstr "Najczęściej Zadawane Pytania"
 
-#: webmaerd/templates/faq.html:39
+#: agency/templates/faq.html:40
 msgid "Most frequently asked questions regarding cooperation"
 msgstr "Najczęściej zadawane pytania ondośnie współpracy"
 
-#: webmaerd/templates/faq.html:61
+#: agency/templates/faq.html:62
 msgid ""
 "If you do not find the answer to your question listed within our FAQ's, you "
 "can always contact us directly at"
-msgstr "Jeżeli nie znalazłeś odpowiedzi na swoje pytanie w tej liście zawsze możesz skontaktować się z nami bezpośrednio przez"
+msgstr ""
+"Jeżeli nie znalazłeś odpowiedzi na swoje pytanie w tej liście zawsze możesz "
+"skontaktować się z nami bezpośrednio przez"
 
-#: webmaerd/templates/index.html:14
+#: agency/templates/index.html:14
 msgid "Web Development"
 msgstr "Tworzenie stron internetowych"
 
-#: webmaerd/templates/index.html:15
+#: agency/templates/index.html:15
 msgid "Modern,Inexpensively,Fast"
 msgstr "Nowocześnie,Niedrogo,Szybko"
 
-#: webmaerd/templates/index.html:20
+#: agency/templates/index.html:20
 msgid "Professional websites creation at a reasonable price in a short time"
-msgstr "Profesjonalne tworzenie stron internetowych w rozsądnej cenie w krótkim czasie"
+msgstr ""
+"Profesjonalne tworzenie stron internetowych w rozsądnej cenie w krótkim "
+"czasie"
 
-#: webmaerd/templates/index.html:36
+#: agency/templates/index.html:36
 msgid "Where modern technologies meet modern business"
 msgstr "Gdzie nowoczesne technologie spotykają się z nowoczesnym biznesem"
 
-#: webmaerd/templates/index.html:37
+#: agency/templates/index.html:37
 msgid "Want to get a new website or update existing"
 msgstr "Chcesz uzyskać nową stronę internetową lub aktualizować istniejącą"
 
-#: webmaerd/templates/index.html:39
+#: agency/templates/index.html:39
 msgid ""
 "For any modern compnies it is very useful to have their own website. High "
 "quality site can increase your brand recognition, attract new customers and "
 "increase sales level. We deal with modern and professional sites' "
 "development for small and medium business"
-msgstr "Dla każdej współczesnej firmy bardzo przydatne jest posiadanie własnej strony internetowej. Witryna o wysokiej jakości może zwiększyć rozpoznawalność marki, przyciągnąć nowych klientów i podnieść poziom sprzedaży. Zajmujemy się tworzeniem nowoczesnych i profesjonalnych witryn dla małych i średnich firm"
+msgstr ""
+"Dla każdej współczesnej firmy bardzo przydatne jest posiadanie własnej "
+"strony internetowej. Witryna o wysokiej jakości może zwiększyć "
+"rozpoznawalność marki, przyciągnąć nowych klientów i podnieść poziom "
+"sprzedaży. Zajmujemy się tworzeniem nowoczesnych i profesjonalnych witryn "
+"dla małych i średnich firm"
 
-#: webmaerd/templates/index.html:43
+#: agency/templates/index.html:43
 msgid "Write to us"
 msgstr "Napisz do nas"
 
-#: webmaerd/templates/index.html:47
+#: agency/templates/index.html:47
 msgid "View Portfolio"
 msgstr "Zobaczyć Portfolio"
 
-#: webmaerd/templates/index.html:68
+#: agency/templates/index.html:68
 msgid "Our offer"
 msgstr "Nasza oferta"
 
-#: webmaerd/templates/index.html:69
+#: agency/templates/index.html:69
 msgid "Services"
 msgstr "Usługi"
 
-#: webmaerd/templates/index.html:71
+#: agency/templates/index.html:71
 msgid ""
 "We have individual approach to ever customer. We carry out each order "
 "scrupulously and with responsibility. We take into account our customers' "
 "wishes and create only quality websites"
-msgstr "Mamy indywidualne podejście do klienta. Wszystkie zlecenia wykonujemy skrupulatnie i odpowiedzialnie. Bierzemy pod uwagę życzenia naszych klientów i tworzymy tylko wysokiej jakości strony internetowe"
+msgstr ""
+"Mamy indywidualne podejście do klienta. Wszystkie zlecenia wykonujemy "
+"skrupulatnie i odpowiedzialnie. Bierzemy pod uwagę życzenia naszych klientów "
+"i tworzymy tylko wysokiej jakości strony internetowe"
 
-#: webmaerd/templates/index.html:106 webmaerd/templates/portfolio.html:13
+#: agency/templates/index.html:106 agency/templates/portfolio.html:15
 msgid "Our Portfolio"
 msgstr "Nasze Portfolio"
 
-#: webmaerd/templates/index.html:116
+#: agency/templates/index.html:116
 msgid "Creative and modern"
 msgstr "Kreatywnie i nowocześnie"
 
-#: webmaerd/templates/index.html:117 webmaerd/templates/portfolio.html:14
+#: agency/templates/index.html:117 agency/templates/portfolio.html:16
 msgid "Our Latest Works"
 msgstr "Nasze ostatnie projekty"
 
-#: webmaerd/templates/index.html:119
+#: agency/templates/index.html:119
 msgid ""
 "In the portfolio you can find the latest projects which you can look at and "
 "evaluate. We carry out each project carefully and diligently"
-msgstr "W portfolio można znaleźć nasze ostatnie projekty, które możesz obejrzeć i ocenić. Wykonujemy każdy projekt starannie i sumiennie"
+msgstr ""
+"W portfolio można znaleźć nasze ostatnie projekty, które możesz obejrzeć i "
+"ocenić. Wykonujemy każdy projekt starannie i sumiennie"
 
-#: webmaerd/templates/index.html:121
+#: agency/templates/index.html:121
 msgid ""
 "We create websites for small and medium business owners. Subjects of these "
 "webpages are very different: restaurants, hotels, car rentals, repair and "
 "maintenance, beauty salons, barbershops, educational establishments, etc. We "
 "create websites for any sphere"
-msgstr "Tworzymy witryny dla małych i średnich firm. Tematy tych stron są bardzo różne: restauracje, hotele, wypożyczalnie samochodów, naprawy i konserwacje, salony piękności, salony fryzjerskie, placówki edukacyjne itp. Jeśteśmy w stanie stworzyć witrynę dla każdej branży"
+msgstr ""
+"Tworzymy witryny dla małych i średnich firm. Tematy tych stron są bardzo "
+"różne: restauracje, hotele, wypożyczalnie samochodów, naprawy i konserwacje, "
+"salony piękności, salony fryzjerskie, placówki edukacyjne itp. Jeśteśmy w "
+"stanie stworzyć witrynę dla każdej branży"
 
-#: webmaerd/templates/index.html:123
+#: agency/templates/index.html:123
 msgid "See all projects"
 msgstr "Zobaczyć wszystkie projekty"
 
-#: webmaerd/templates/index.html:157
+#: agency/templates/index.html:157
 msgid "What we do"
 msgstr "Co robimy"
 
-#: webmaerd/templates/index.html:158
+#: agency/templates/index.html:158
 msgid "We help your business"
 msgstr "Pomagamy Twojemu biznesu"
 
-#: webmaerd/templates/index.html:160
+#: agency/templates/index.html:160
 msgid ""
 "Your company website is an excellent tool for your brand recognition and "
 "sales level increasing"
-msgstr "Strona internetowa Twojej firmy jest doskonałym narzędziem do zwiększenia rozpoznawania marki i poziomu sprzedaży"
+msgstr ""
+"Strona internetowa Twojej firmy jest doskonałym narzędziem do zwiększenia "
+"rozpoznawania marki i poziomu sprzedaży"
 
-#: webmaerd/templates/index.html:164
+#: agency/templates/index.html:164
 msgid ""
 "The website is your company's image in Internet. That's why every modern "
 "company should have its own website. And this website should have beautiful "
 "and modern design, be informative and represent your company in the best way"
-msgstr "Strona internetowa to wizerunek Twojej firmy w Internecie. Dlatego każda nowoczesna firma powinna mieć własną stronę internetową. Ta strona powinna mieć piękny i nowoczesny wygląd, być informatywna i najlepiej reprezentować firmę"
+msgstr ""
+"Strona internetowa to wizerunek Twojej firmy w Internecie. Dlatego każda "
+"nowoczesna firma powinna mieć własną stronę internetową. Ta strona powinna "
+"mieć piękny i nowoczesny wygląd, być informatywna i najlepiej reprezentować "
+"firmę"
 
-#: webmaerd/templates/index.html:165
+#: agency/templates/index.html:165
 msgid "What do we offer"
 msgstr "Co oferujemy"
 
-#: webmaerd/templates/index.html:169
+#: agency/templates/index.html:169
 msgid "High quality Web Development"
 msgstr "Wysokiej jakości tworzenie stron internetowych"
 
-#: webmaerd/templates/index.html:170
+#: agency/templates/index.html:170
 msgid "Modern design"
 msgstr "Nowoczesny design"
 
-#: webmaerd/templates/index.html:175
+#: agency/templates/index.html:175
 msgid "Domains' support"
 msgstr "Obsługa domenów"
 
-#: webmaerd/templates/index.html:176
+#: agency/templates/index.html:176
 msgid "Hosting support"
 msgstr "Obsługa hostingu"
 
-#: webmaerd/templates/success_page.html:13
-#: webmaerd/templates/success_page.html:18
+#: agency/templates/index.html:196
+msgid ""
+"You can order website creation, web design, domain purchase and "
+"configuration, assistance with website placement on hosting, assistance with "
+"mail configuration for your domain"
+msgstr ""
+"U nas można zamówić projektowanie i tworzenie stron internetowych, zakup i "
+"konfiguracja domen, pomoc w umieszczeniu strony na serwerze, pomoc w "
+"konfiguracji poczty dla Twojej domeny."
+
+#: agency/templates/success_page.html:15 agency/templates/success_page.html:23
 msgid "Success page"
 msgstr "Sukces"
 
-#: webmaerd/templates/success_page.html:37
+#: agency/templates/success_page.html:42
 msgid "Success"
 msgstr "Sukces"
 
-#: webmaerd/templates/success_page.html:38
+#: agency/templates/success_page.html:43
 msgid "Your message has been successfully sent"
 msgstr "Twoja wiadomość została wysłana pomyślnie"
 
-#: webmaerd/templates/success_page.html:41
+#: agency/templates/success_page.html:46
 msgid "Thank you for contacting us. We will reply to you shortly"
 msgstr "Dziękujemy za skontaktowanie się z nami. Wkrótce odpowiemy Ci"
 
-#: webmaerd/templates/success_page.html:42
+#: agency/templates/success_page.html:47
 msgid "back to home"
 msgstr "na główną stronę"
 
-#: webmaerd/templates/success_page.html:43
+#: agency/templates/success_page.html:48
 msgid "back to Contact page"
 msgstr "na strone Kontaktów"
+
+#~ msgid "web development agency"
+#~ msgstr "projektowanie i tworzenie stron internetowych"
